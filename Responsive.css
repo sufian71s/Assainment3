@@ -2,6 +2,7 @@
     
 body{
     width: 100%;
+    display: flexbox;
 }
 header{
     background-image: url(img/header.png);
@@ -76,7 +77,7 @@ grid-template-columns: 1fr;
 .Honeymoon{
     display: grid;
     grid-template-columns:1fr;
-   margin-left: -1rem;
+   margin-left: -2rem;
 }
 .Fastthetasym{
     display: grid;
@@ -87,9 +88,12 @@ grid-template-columns: 1fr;
 .illus img{
     height: 400px;
     width: 500px;
+    margin-left: -2rem;
     
 }
 .lets img{
+      margin-left: -2rem;
+    
     height: 100px;
     width: 100%;
 }
@@ -290,7 +294,7 @@ margin-top: -1rem;
 }
 .subscribe{
     display: flex;
-    margin-left: -6rem;    margin-bottom: -2rem;
+    margin-left: -8rem;    margin-bottom: -2rem;
 }
 .subscribe input{
     height: 1rem;
